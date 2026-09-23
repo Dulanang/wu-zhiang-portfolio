@@ -2,6 +2,10 @@
 
 个人作品集前端：3D 螺旋作品墙、鼠标跟随列表、图文项目详情、开场动画和声音开关。基于 React、Vite、Three.js 与 Lottie。
 
+在线网站：https://dulanang.github.io/wu-zhiang-portfolio/
+
+GitHub 仓库：https://github.com/Dulanang/wu-zhiang-portfolio
+
 ## 本地运行
 
 安装 Node.js 24 LTS，然后在本项目文件夹打开终端：
@@ -20,6 +24,8 @@ pnpm preview --host 127.0.0.1 --port 4173
 ```
 
 构建产物位于 `dist/`，需通过 HTTP 服务打开。
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并更新线上网站。
 
 ## 常用文件
 

@@ -1,0 +1,273 @@
+{
+  "projects": [
+    {
+      "title": "Paths of life",
+      "slug": "paths-of-life",
+      "description": "Paths of Life is a short film about the different paths we take through life; it features a main character and graphic forms that metaphorically and conceptually illustrate the journey of this main character.",
+      "year": 2024,
+      "image": "/assets/paths-of-life.png",
+      "playbackId": "79CoZbPvtdGp00mUU3pkRZujFUDwR02LHciDlc9Gl7G7k",
+      "url": "https://pacomepertant.com/projects/paths-of-life",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/paths-of-life-detail-1.webp",
+          "alt": "Paths of life"
+        },
+        {
+          "type": "image",
+          "src": "/assets/paths-of-life-detail-2.webp",
+          "alt": "Paths of life"
+        },
+        {
+          "type": "image",
+          "src": "/assets/paths-of-life-detail-3.webp",
+          "alt": "Paths of life"
+        }
+      ]
+    },
+    {
+      "title": "IP-Design-Mokin",
+      "slug": "the-disease-spread-on-tiktok",
+      "description": "Manqi (MONKI) is a 24-year-old laid-back lifestyle creative designer, and the principal of Half-Slow Design Studio.\nSensitive, insightful, with a touch of dry humour, he excels at uncovering genuine issues hidden in the trivialities of daily life. Born out of reflections on fast-paced living, MONKI aims to convey a life attitude — *\"Slower progress is still moving forward\"* — through a warm, laid-back persona.",
+      "year": 2024,
+      "image": "/assets/the-disease-spread-on-tiktok.png",
+      "playbackId": "tl4p3L4FYyKx6S4j2Vo1ONIsUu1q5QR3YoTvb76f0202o",
+      "url": "https://pacomepertant.com/projects/the-disease-spread-on-tiktok",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/the-disease-spread-on-tiktok-1.png",
+          "alt": "IP-Design-Mokin"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-disease-spread-on-tiktok-2.png",
+          "alt": "IP-Design-Mokin"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-disease-spread-on-tiktok-3.png",
+          "alt": "IP-Design-Mokin"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-disease-spread-on-tiktok-4.png",
+          "alt": "IP-Design-Mokin"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-disease-spread-on-tiktok-5.png",
+          "alt": "IP-Design-Mokin"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-disease-spread-on-tiktok-6.png",
+          "alt": "IP-Design-Mokin"
+        }
+      ]
+    },
+    {
+      "title": "Ah, Psychedelics",
+      "slug": "ah-psychedelics",
+      "description": "What if psychedelics weren't just drugs, but medical treatments? This motion design explores the therapeutic potential of psychedelics, using scientific research to deconstruct preconceived ideas.",
+      "year": 2025,
+      "image": "/assets/ah-psychedelics.png",
+      "playbackId": "4T5ePLKwMgGBHjNGk018tJ198RPD5qEaIIc6HQ02MjF5c",
+      "url": "https://pacomepertant.com/projects/ah-psychedelics",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/ah-psychedelics-detail-1.webp",
+          "alt": "Ah, Psychedelics"
+        },
+        {
+          "type": "image",
+          "src": "/assets/ah-psychedelics-detail-2.webp",
+          "alt": "Ah, Psychedelics"
+        },
+        {
+          "type": "image",
+          "src": "/assets/ah-psychedelics-detail-3.webp",
+          "alt": "Ah, Psychedelics"
+        }
+      ]
+    },
+    {
+      "title": "Thought",
+      "slug": "thought",
+      "description": "Exploring the emergence of new, spontaneous ideas.",
+      "year": 2025,
+      "image": "/assets/thought.png",
+      "playbackId": "xID01eUh12oDNh5MRbAh6fRHQtlq6upbqwinWRzWnE38",
+      "url": "https://pacomepertant.com/projects/thought",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/thought-detail-1.webp",
+          "alt": "Thought"
+        },
+        {
+          "type": "image",
+          "src": "/assets/thought-detail-2.webp",
+          "alt": "Thought"
+        },
+        {
+          "type": "image",
+          "src": "/assets/thought-detail-3.webp",
+          "alt": "Thought"
+        }
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "slug": "jupiter",
+      "description": "Release motion created a few months ago for Jupiter, to mark the launch of their stablecoin.",
+      "year": 2026,
+      "image": "/assets/jupiter.png",
+      "playbackId": "00j0002c6600iaejjGj002bhmaJqSlW02PstH7do6QJRPJImM",
+      "url": "https://pacomepertant.com/projects/jupiter",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/jupiter-detail-1.png",
+          "alt": "Jupiter"
+        },
+        {
+          "type": "image",
+          "src": "/assets/jupiter-detail-2.png",
+          "alt": "Jupiter"
+        },
+        {
+          "type": "image",
+          "src": "/assets/jupiter-detail-3.png",
+          "alt": "Jupiter"
+        }
+      ]
+    },
+    {
+      "title": "Chromatik",
+      "slug": "chromatik",
+      "description": "A visual and sound experiment. Shapes, blend tones, and retro tones collide to create a playful study in motion & texture.",
+      "year": 2025,
+      "image": "/assets/chromatik.png",
+      "playbackId": "02Bf00ukchvF00C017njOiuDYNLW6HjDDgCFq6FL8eal1k8",
+      "url": "https://pacomepertant.com/projects/chromatik",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/chromatik-detail-1.webp",
+          "alt": "Chromatik"
+        },
+        {
+          "type": "image",
+          "src": "/assets/chromatik-detail-2.webp",
+          "alt": "Chromatik"
+        },
+        {
+          "type": "image",
+          "src": "/assets/chromatik-detail-3.webp",
+          "alt": "Chromatik"
+        }
+      ]
+    },
+    {
+      "title": "Digital Travel",
+      "slug": "digital-travel",
+      "description": "A personal project in which a user logs on to his computer ans clicks on a simple play button, leading to the appearance of shapes, colors and anything else that might happen inside a computer while it's loading.",
+      "year": 2024,
+      "image": "/assets/digital-travel.png",
+      "playbackId": "ju6elgST7uaWqO9MLc4ODA9V8dkOLmYFdrbSPtXTFaM",
+      "url": "https://pacomepertant.com/projects/digital-travel",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/digital-travel-detail-1.webp",
+          "alt": "Digital Travel"
+        },
+        {
+          "type": "image",
+          "src": "/assets/digital-travel-detail-2.webp",
+          "alt": "Digital Travel"
+        },
+        {
+          "type": "image",
+          "src": "/assets/digital-travel-detail-3.webp",
+          "alt": "Digital Travel"
+        }
+      ]
+    },
+    {
+      "title": "Mercedes AMG",
+      "slug": "mercedes-amg",
+      "description": "AMG-GT is a 3D motion study project made at school, using Cinema4D and AfterEffects.",
+      "year": 2025,
+      "image": "/assets/mercedes-amg.png",
+      "playbackId": "J6q7eMxUJgjTxJbliCliQSeZtUQYN00iAONNIkyFEZYE",
+      "url": "https://pacomepertant.com/projects/mercedes-amg",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/mercedes-amg-detail-1.jpg",
+          "alt": "Mercedes AMG"
+        },
+        {
+          "type": "image",
+          "src": "/assets/mercedes-amg-detail-2.jpg",
+          "alt": "Mercedes AMG"
+        }
+      ]
+    },
+    {
+      "title": "The purity revealed",
+      "slug": "the-purity-revealed",
+      "description": "A personal project in which I imagined a collaboration between the Swarovski brand and Evian. The collaboration would involve distributing limited edition products from both brands at events such as Roland Garros, Fashion Week, Dubai Week and the Met Gala.",
+      "year": 2025,
+      "image": "/assets/the-purity-revealed.png",
+      "playbackId": "qAQWnnz023A00z77cnBAm18r6vyFgkcde9EKurPYVIZAM",
+      "url": "https://pacomepertant.com/projects/the-purity-revealed",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/the-purity-revealed-detail-1.png",
+          "alt": "The purity revealed"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-purity-revealed-detail-2.png",
+          "alt": "The purity revealed"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-purity-revealed-detail-3.png",
+          "alt": "The purity revealed"
+        },
+        {
+          "type": "image",
+          "src": "/assets/the-purity-revealed-detail-4.png",
+          "alt": "The purity revealed"
+        }
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "微信",
+      "value": "Dulanang"
+    },
+    {
+      "label": "手机",
+      "url": "tel:17756971591"
+    },
+    {
+      "label": "小红书",
+      "url": ""
+    },
+    {
+      "label": "抖音",
+      "url": ""
+    }
+  ],
+  "email": "1091447325@qq.com",
+  "showreel": "ycc6bXk6hOWxGnyb6F3wvUxPPLiDML00P9OPkYMjuSN8"
+}

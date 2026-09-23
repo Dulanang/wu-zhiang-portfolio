@@ -1,0 +1,62 @@
+{
+  "ambient": {
+    "src": "/assets/ambient.ogg",
+    "volume": 0.3
+  },
+  "hover": {
+    "src": "/assets/hover.ogg",
+    "volume": 1
+  },
+  "click": {
+    "src": "/assets/click.ogg",
+    "volume": 0.5
+  },
+  "spiral": {
+    "src": "/assets/spiral.ogg",
+    "volume": 0.4
+  },
+  "list": {
+    "src": "/assets/list.ogg",
+    "volume": 0.4
+  },
+  "tick": {
+    "src": "/assets/tick.ogg",
+    "volume": 0.2
+  },
+  "longclick": {
+    "src": "/assets/longclick.ogg",
+    "volume": 0.5
+  },
+  "switch": {
+    "src": "/assets/switch.ogg",
+    "volume": 0.5
+  },
+  "close": {
+    "src": "/assets/close.ogg",
+    "volume": 0.7
+  },
+  "menuhome": {
+    "src": "/assets/menuhome.ogg",
+    "volume": 0.25
+  },
+  "menuabout": {
+    "src": "/assets/menuabout.ogg",
+    "volume": 0.25
+  },
+  "smiley1": {
+    "src": "/assets/smiley1.ogg",
+    "volume": 0.2
+  },
+  "smiley2": {
+    "src": "/assets/smiley2.ogg",
+    "volume": 0.2
+  },
+  "smiley3": {
+    "src": "/assets/smiley3.ogg",
+    "volume": 0.2
+  },
+  "smiley4": {
+    "src": "/assets/smiley4.ogg",
+    "volume": 0.2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Wu Zhiang Portfolio",
+  "short_name": "Wu Zhiang",
+  "icons": [
+    {
+      "src": "/assets/favicon-6a1196d6efe4ad41.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a",
+  "display": "standalone"
+}

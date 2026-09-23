@@ -3,8 +3,9 @@ import Spiral from './Spiral.jsx';
 import Player from './Player.jsx';
 import IntroAnimation from './IntroAnimation.jsx';
 import {ListCursor,ProjectStory} from './Details.jsx';
-import data from './projects.json';
-import audioConfig from './audio.json';
+import {data,audioConfig} from './content.js';
+import {asset} from './assets.js';
+
 import './section_1.css';
 
 export default function Section1(){
@@ -23,15 +24,15 @@ export default function Section1(){
  const switchMode=m=>{setMode(m);play(m);setHover(null);};
  const closeMenu=()=>{setMenu(false);play('close');menuButton.current?.focus();};
  return <main className="portfolio" data-source-url="https://pacomepertant.com/" data-web-clone-id="wc-body1-div1">
-  <img className="grid" src="/assets/grid.svg" alt=""/>
+  <img className="grid" src={asset("/assets/grid.svg")} alt=""/>
   {!fallback&&<Spiral active={(entered||leaving)&&mode==='spiral'&&!menu&&!project&&!about} onReady={()=>setReady(true)} onSelect={openProject} onHover={p=>{if(p)play('hover');}} onError={()=>{setFallback(true);setReady(true);setMode('list');}}/>}
   <div className={`interface ${entered||leaving?'visible':''}`} inert={!entered}>
-   <header className="header"><button className="logo-button" aria-label="Wu Zhiang, home" onMouseEnter={()=>play('smiley1')} onClick={()=>{setAbout(false);setMenu(false);setMode(fallback?'list':'spiral');play('menuhome');}}><img src="/assets/logo.svg" alt="Wu Zhiang"/><span className="logo-tag">hello!</span></button>
+   <header className="header"><button className="logo-button" aria-label="Wu Zhiang, home" onMouseEnter={()=>play('smiley1')} onClick={()=>{setAbout(false);setMenu(false);setMode(fallback?'list':'spiral');play('menuhome');}}><img src={asset("/assets/logo.svg")} alt="Wu Zhiang"/><span className="logo-tag">hello!</span></button>
     <nav className="view-switch" aria-label="Gallery view"><button className={mode==='spiral'?'selected':''} aria-pressed={mode==='spiral'} disabled={fallback} onClick={()=>switchMode('spiral')}>spiral</button><span className="dot"/><button className={mode==='list'?'selected':''} aria-pressed={mode==='list'} onClick={()=>switchMode('list')}>list</button></nav>
     <button ref={menuButton} className={`pill menu-button ${menu?'opened':''}`} aria-label={menu?'Close menu':'menu'} aria-expanded={menu} aria-controls="main-menu" onClick={()=>{menu?closeMenu():(setMenu(true),play('click'));}}>{menu?'×':<>menu <span className="dot"/></>}</button>
    </header>
    {(mode==='list'||fallback)&&!about&&<><ListCursor project={menu||project?null:hover}/><section className="project-list" aria-label="Selected works" onMouseLeave={()=>setHover(null)}>{data.projects.map((p,i)=><button key={p.slug} style={{'--index':i}} onMouseEnter={()=>{setHover(p);play('hover');}} onFocus={()=>setHover(p)} onBlur={()=>setHover(null)} onClick={()=>openProject(p)}>{p.title}</button>)}</section></>}
-   <footer><button className="showreel" aria-label="Play showreel 2026" onClick={()=>openProject({title:'Showreel 2026',year:2026,image:'/assets/image-cc37df5989400fbb.png',playbackId:data.showreel,description:'A selection of motion and sound design.'})}><span className="marquee-container" aria-hidden="true">{('showreel • 2026 • '.repeat(5)).split('').map((c,i)=><span key={i} className="marquee-text" style={{animationDelay:`${i*.12-12}s`}}>{c===' '?'\u00a0':c}</span>)}</span><img src="/assets/image-cc37df5989400fbb.png" alt="Showreel Thumbnail"/><span className="reel-play">▶</span></button><button className="sound-button" aria-label={sound?'Mute sound':'Enable sound'} aria-pressed={sound} onClick={()=>{soundRef.current=!sound;setSound(!sound);if(!sound){getAudio('ambient').play().catch(()=>{});play('switch');}}}><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/>{sound?<path d="M16 8q5 4 0 8m3-11q8 7 0 14" stroke="currentColor" strokeWidth="1.6"/>:<path d="m17 9 5 6m0-6-5 6" stroke="currentColor" strokeWidth="1.8"/>}</svg></button></footer>
+   <footer><button className="showreel" aria-label="Play showreel 2026" onClick={()=>openProject({title:'Showreel 2026',year:2026,image:asset('/assets/image-cc37df5989400fbb.png'),playbackId:data.showreel,description:'A selection of motion and sound design.'})}><span className="marquee-container" aria-hidden="true">{('showreel • 2026 • '.repeat(5)).split('').map((c,i)=><span key={i} className="marquee-text" style={{animationDelay:`${i*.12-12}s`}}>{c===' '?'\u00a0':c}</span>)}</span><img src={asset("/assets/image-cc37df5989400fbb.png")} alt="Showreel Thumbnail"/><span className="reel-play">▶</span></button><button className="sound-button" aria-label={sound?'Mute sound':'Enable sound'} aria-pressed={sound} onClick={()=>{soundRef.current=!sound;setSound(!sound);if(!sound){getAudio('ambient').play().catch(()=>{});play('switch');}}}><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/>{sound?<path d="M16 8q5 4 0 8m3-11q8 7 0 14" stroke="currentColor" strokeWidth="1.6"/>:<path d="m17 9 5 6m0-6-5 6" stroke="currentColor" strokeWidth="1.8"/>}</svg></button></footer>
   </div>
   <button className={`menu-backdrop ${menu?'open':''}`} tabIndex={menu?0:-1} aria-hidden={!menu} aria-label="Dismiss menu" onClick={closeMenu}/>
   <aside id="main-menu" className={`menu-panel ${menu?'open':''}`} ref={menuPanel} aria-label="Main menu" inert={!menu} aria-hidden={!menu}>

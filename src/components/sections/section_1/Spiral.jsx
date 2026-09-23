@@ -4,7 +4,7 @@ import {fragmentShader,vertexShader,PPnoiseFragmentShader,PPnoiseVertexShader} f
 import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
 import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
 import {ShaderPass} from 'three/addons/postprocessing/ShaderPass.js';
-import data from './projects.json';
+import {data} from './content.js';
 export default function Spiral(props){
  const ref=useRef(),state=useRef(props);state.current=props;
  useEffect(()=>{

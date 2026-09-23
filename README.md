@@ -2,9 +2,9 @@
 
 个人作品集前端：3D 螺旋作品墙、鼠标跟随列表、图文项目详情、开场动画和声音开关。基于 React、Vite、Three.js 与 Lottie。
 
-在线网站：https://dulanang.github.io/wu-zhiang-portfolio/
+在线网站：https://dulanang.github.io/
 
-GitHub 仓库：https://github.com/Dulanang/wu-zhiang-portfolio
+GitHub 仓库：https://github.com/Dulanang/dulanang.github.io
 
 ## 本地运行
 

@@ -7,7 +7,7 @@
 1. 打开 GitHub Desktop，添加现有本地仓库，选择本项目文件夹 `wu-zhiang-portfolio`。
 2. 查看 Changes，确认代码、public/assets 和说明文件都已列出，node_modules、dist 不在其中。
 3. 填写首次提交说明，例如 `Initial portfolio`，提交到 main。
-4. 使用 Publish repository，名称可填 `wu-zhiang-portfolio`。建议暂时保持私有。
+4. 使用 Publish repository，仓库名称填写 `dulanang.github.io`，并保持公开，以便 GitHub Pages 免费发布。
 5. 后续换图或改文字后，先本地预览，再提交修改并推送。
 
 如果使用 ZIP，请先解压。ZIP 不包含隐藏的 .git 历史，需要在解压后的文件夹初始化仓库。
